@@ -3,7 +3,7 @@ import { HiOutlineX } from 'react-icons/hi';
 
 const Tile = () => {
   return (
-    <Col xs={4}>
+    <Col xs={4} className='p-0'>
       <Container className='p-0 tile d-flex justify-content-center align-items-center h-100'>
         <HiOutlineX className='tile-icon' />
       </Container>

@@ -1,6 +1,6 @@
 .play-area {
-  min-height: max(30vw, 400px);
-  /* min-width: auto; */
+  max-height: max(30vw, 400px);
+  min-height: 30vw;
 }
 
 .tile-icon {
