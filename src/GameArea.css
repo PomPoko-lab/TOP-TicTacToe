@@ -1,0 +1,8 @@
+.play-area {
+  min-height: max(30vw, 400px);
+  /* min-width: auto; */
+}
+
+.tile-icon {
+  font-size: min(25vw, 100px);
+}
