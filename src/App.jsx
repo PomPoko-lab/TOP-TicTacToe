@@ -6,17 +6,6 @@ import { useEffect, useState } from 'react';
 
 // Win Conditions: 123, 456, 789, 147, 258, 369, 159, 357
 
-const WINCONDITIONS = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [1, 4, 7],
-  [2, 5, 8],
-  [3, 6, 9],
-  [1, 5, 9],
-  [3, 5, 7],
-];
-
 function App() {
   const [gameState, setGameState] = useState({
     turn: 'player1',

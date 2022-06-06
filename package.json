@@ -1,7 +1,7 @@
 {
   "name": "tictactoe-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://pompoko-lab.github.io/TOP-TicTacToe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

@@ -4,7 +4,6 @@ const Players = ({ currentPlayer, error, setError, gameOn }) => {
   } ${currentPlayer.slice(-1)}`;
 
   const display = gameOn ? (error ? setError() : formatPlayer) : 'WINNER';
-  // error ? setError() : formatPlayer
 
   return (
     <div
